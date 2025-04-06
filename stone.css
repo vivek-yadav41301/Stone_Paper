@@ -1,0 +1,101 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    font-weight: bold;
+    text-decoration: stroke;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+   margin-top: 70px;
+   gap: 50px;
+   background: linear-gradient(45deg,rgb(1, 1, 23),rgb(82, 3, 96)
+   );
+}
+.boxes
+{   width: 600px;
+    
+    display: flex;
+    height: 30%;
+    
+    align-items: center;
+    justify-content: space-evenly;
+}
+img
+{
+    width: 150px;
+    height:150px;
+    cursor: pointer;
+}
+
+.scorecard
+{
+    display: flex;
+    justify-content: space-evenly;
+  
+    width: 30%;
+    font-size: 35px;
+ 
+}
+.user
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.computer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.winner
+{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.stone:hover{
+    border: 10px solid rgb(255, 187, 59);
+    border-radius: 50%;
+}
+.paper:hover{
+    border: 10px solid rgb(255, 187, 59);
+    border-radius: 50%;
+}
+.scissor:hover{
+    border: 10px solid rgb(255, 187, 59);
+    border-radius: 50%;
+}
+
+.winner{
+   
+    width: 80%;
+  height: 50px;
+  
+}
+h1{
+    font-size: 60px;
+}
+#winneris
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 12px;
+    height: 100%;
+    background-color: orange;
+    color: black;
+}
