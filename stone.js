@@ -22,9 +22,9 @@ function Winner(win,userchoice,computerres)
   }
   else{
     computer++;
-    computer.innerText=computer;
+    computerscore.innerText=computer;
     console.log(`computer ${computerres}beats ${userchoice}`)
-    winneris.innerText=`You Lost ! Computer choice ${userchoice} beats Your choice ${computerres}`
+    winneris.innerText=`You Lost ! Computer choice ${computerres} beats Your choice ${userchoice}`
       winneris.style.backgroundColor="red"
   }
    
